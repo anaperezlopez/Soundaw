@@ -12,7 +12,7 @@ const Header = () => {
         <HeaderContainer>
             <HeaderLeft>
                 <SearchIcon />
-                <input type="text" placeholder="Search for Artists, Songs, or other"/>
+                <input type="text" placeholder="Busca artistas, albumnes, podcasts..."/>
             </HeaderLeft>
             <HeaderRight>
                 <Avatar src={user?.images[0]?.url} alt={user?.id }/>

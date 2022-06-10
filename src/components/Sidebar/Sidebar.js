@@ -9,13 +9,13 @@ const Sidebar = () => {
     return (
         <SidebarContainer>
             <img src={logo} alt="logo" />
-            <SidebarChoice title="Home" Icon={HomeIcon }/>
-            <SidebarChoice title="Search" Icon={SearchIcon} />
-            <SidebarChoice title="Your Library" Icon={LibraryMusicIcon} />
+            <SidebarChoice title="Inicio" Icon={HomeIcon }/>
+            <SidebarChoice title="Buscar" Icon={SearchIcon} />
+            <SidebarChoice title="Tus playlists" Icon={LibraryMusicIcon} />
             <Playlists>PLAYLISTS</Playlists>
             <hr />
-            <SidebarChoice title="2021 Chillout Music"  />
-            <SidebarChoice title="Dark Metal"  />
+            <SidebarChoice title="Internacional"  />
+            <SidebarChoice title="Pa' sonreir :)"  />
 
         </SidebarContainer>
            

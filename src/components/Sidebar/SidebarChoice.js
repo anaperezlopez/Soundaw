@@ -1,4 +1,3 @@
-
 import { Choices } from './styles'
 
 const SidebarChoice = ({title, Icon}) => {

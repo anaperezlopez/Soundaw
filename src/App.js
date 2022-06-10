@@ -26,7 +26,7 @@ function App() {
       spotify.setAccessToken(_token);
       spotify.getMe().then(user => dispatch(SET_USER(user)))
       console.log("token => ", token)
-      spotify.getPlaylist("0ghX8M21x95UCCI6cMDpQu").then(playlist =>
+      spotify.getPlaylist("7udftefPwMCrUeg3WtlJAV").then(playlist =>
         dispatch(SET_PLAYLIST(playlist)))
     }
     

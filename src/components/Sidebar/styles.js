@@ -13,14 +13,17 @@ const SidebarContainer = styled.div`
     
  }
  & hr {
-     border: 1px solid smokegray;
+     border: 1px solid;
      width: 90%;
      margin: 10px auto;
+     color: #78A1FF;
  }
 `
 
 const Playlists = styled.div`
- margin: 5px 10px;
+ margin: 15px 10px;
+ color: #78A1FF;
+ font-weight: bolder;
 
 `
 

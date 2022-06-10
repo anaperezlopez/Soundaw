@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
-const SpotifyBody = styled.div`
+const AllBody = styled.div`
 display: flex;
 `
 
 
-export { SpotifyBody}
+export { AllBody}

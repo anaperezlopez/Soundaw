@@ -8,16 +8,17 @@ import RepeatIcon from "@material-ui/icons/Repeat";
 import PlaylistPlayIcon from "@material-ui/icons/PlaylistPlay";
 import VolumeDownIcon from "@material-ui/icons/VolumeDown";
 import { Grid, Slider } from '@material-ui/core';
+import logo from '../../assets/4non.jpg';
 
 
 const Footer = () => {
     return (
         <FooterContainer>
             <FooterLeft>
-                <img src="https://static.posters.cz/image/750/buque-costero/coldplay-parachutes-album-cover-i56853.jpg" alt="cover"/>
+                <img src={logo} alt="cover"/>
                 <div>
-                    <h4>Shape of My heart</h4>
-                    <p>Sting</p>
+                    <h4>What's up?</h4>
+                    <p>4 non blondes</p>
                 </div>
             </FooterLeft>
             <FooterCenter>

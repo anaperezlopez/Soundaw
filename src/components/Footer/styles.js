@@ -13,7 +13,7 @@ justify-content: space-between;
 `
 
 const FooterLeft = styled.div`
-  flex: 0.3;
+  flex: 0.5;
   display: flex;
   align-items: center;
   max-width:300px;
@@ -21,6 +21,7 @@ const FooterLeft = styled.div`
       height: 60px;
       width: 60px;
       margin-right: 20px;
+      margin-left: 5px;
       object-fit: contain;
   }
 `
@@ -40,7 +41,7 @@ justify-content: center;
 margin-right: 35px;
 
 & .MuiSlider-root{
-    color: #5D85DF;
+    color: #78A1FF;
 }
 
 
