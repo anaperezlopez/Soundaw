@@ -5,7 +5,7 @@ position: fixed;
 bottom: 0;
 height: 70px;
 width: 100vw;
-background-color:#181818;
+background-color:#070835;
 color: #fff;
 display: flex;
 justify-content: space-between;
@@ -40,7 +40,7 @@ justify-content: center;
 margin-right: 35px;
 
 & .MuiSlider-root{
-    color: #00ff00;
+    color: #5D85DF;
 }
 
 

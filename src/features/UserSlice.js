@@ -8,7 +8,7 @@ export const userSlice = createSlice({
     },
     reducers: {
         SET_USER: (state, action) => {
-            state.user = action.payload // dispatch(SET_USER({name: "javascriptdenoobapro"}))
+            state.user = action.payload 
          
         },
      

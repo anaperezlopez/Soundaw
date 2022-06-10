@@ -3,18 +3,19 @@ import SearchIcon from "@material-ui/icons/Search";
 import LibraryMusicIcon from "@material-ui/icons/LibraryMusic";
 import SidebarChoice from './SidebarChoice';
 import { Playlists, SidebarContainer } from './styles'
+import logo from '../../assets/titulosound.png';
 
 const Sidebar = () => {
     return (
         <SidebarContainer>
-            <img src="https://1000logos.net/wp-content/uploads/2017/08/Spotify-symbol.jpg" alt="logo" />
+            <img src={logo} alt="logo" />
             <SidebarChoice title="Home" Icon={HomeIcon }/>
             <SidebarChoice title="Search" Icon={SearchIcon} />
             <SidebarChoice title="Your Library" Icon={LibraryMusicIcon} />
             <Playlists>PLAYLISTS</Playlists>
             <hr />
             <SidebarChoice title="2021 Chillout Music"  />
-            <SidebarChoice title="Dark Metal"  />|
+            <SidebarChoice title="Dark Metal"  />
 
         </SidebarContainer>
            

@@ -3,7 +3,7 @@ import styled from "styled-components";
 const SidebarContainer = styled.div`
  flex: 0.2;
  height: 100vh;
- background-color: #000000;
+ background-color: #050520;
  min-width: 240px;
  color: #fff;
  & img{
@@ -38,5 +38,8 @@ transition: 300ms color ease-in;
 
 
 `
+
+
+
 
 export { SidebarContainer, Playlists, Choices}

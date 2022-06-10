@@ -1,6 +1,6 @@
 import { loginURL } from "../../spotifyLogic"
 import { LoginButton, LoginContainer } from "./styles"
-
+import logo from '../../assets/sound-wave.jpg';
 
 
 const Login = () => {
@@ -8,8 +8,8 @@ const Login = () => {
   
     return (
         <LoginContainer>
-            <img src="https://1000logos.net/wp-content/uploads/2017/08/Spotify-symbol.jpg" alt="logo"  />
-            <LoginButton href={loginURL}>Login with spotify</LoginButton> 
+            <img src={logo} alt="logo"  />
+            <LoginButton href={loginURL}>Registrate con spotify</LoginButton> 
         </LoginContainer>
     )
 }

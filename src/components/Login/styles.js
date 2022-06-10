@@ -7,12 +7,13 @@ const LoginContainer = styled.div`
  background-color: #000;
  & img {
      width: 100%;
+     height: 90vh;
  }
 `
 
 const LoginButton = styled.a`
  padding: 20px;
- background-color: #1db954;
+ background-color: #5D85DF;
  border-radius: 90px;
  color: #fff;
  text-decoration:none;
@@ -22,3 +23,4 @@ const LoginButton = styled.a`
 `
 
 export {LoginContainer, LoginButton}
+
